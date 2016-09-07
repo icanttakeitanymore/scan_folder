@@ -2,10 +2,10 @@
 import os
 import time
 
-TIME = 1
-FILELIST = None
-PATH_FOR_LINKS = "/home/boris/links_folder"
-PATH_FOR_SCAN = "/home/boris/scan_folder"
+TIME = 1					# Время обновления
+# чот хз почему, но на конце не должно быть / :D
+PATH_FOR_LINKS = "/home/boris/links_folder"	# Директория с линками
+PATH_FOR_SCAN = "/home/boris/scan_folder"	# Директория для сканирования
 
 def link_founder(PATH_FOR_LINKS):
 	"""
