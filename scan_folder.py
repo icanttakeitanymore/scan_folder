@@ -3,7 +3,7 @@ import os
 import time
 
 TIME = 1					# Время обновления
-# чот хз почему, но на конце не должно быть / :D
+# чот хз почему, но на конце не должно быть /, влом в принтах менять :D
 PATH_FOR_LINKS = "/home/boris/links_folder"	# Директория с линками
 PATH_FOR_SCAN = "/home/boris/scan_folder"	# Директория для сканирования
 
