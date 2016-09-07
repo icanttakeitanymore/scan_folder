@@ -1,0 +1,13 @@
+[Unit]
+Description = Folder Links Service
+After = syslog.target
+[Service]
+Type=simple
+Uset=root
+WorkingDirectory=/home/boris
+ExecStart=/usr/local/bin/scan_folder.py
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target
