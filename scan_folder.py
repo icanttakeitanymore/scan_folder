@@ -2,10 +2,9 @@
 import os
 import time
 
-TIME = 1
-FILELIST = None
-PATH_FOR_LINKS = "/home/boris/links_folder"
-PATH_FOR_SCAN = "/home/boris/scac_folder"
+TIME = 1 				    # Время обновления
+PATH_FOR_LINKS = "/home/boris/links_folder" # Папка для линков
+PATH_FOR_SCAN = "/home/boris/scac_folder"   # Сканируемая папка
 
 def link_founder(PATH_FOR_LINKS):
 	"""
